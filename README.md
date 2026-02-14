@@ -1,8 +1,14 @@
-# Stillness — A Zen Coloring Book 🎨
+# Stillness 🌿
 
-A meditative, browser-based adult coloring book built with **Paper.js** for crisp vector rendering, smooth zoom/pan, and a calming dark-mode UI.
+**Breathe. Click. Color. Let the world dissolve.**
 
-> **[Try it live →](https://LadyNaggaga.github.io/Stillness/)**
+Stillness is a browser-based coloring book designed for the moments when your mind needs a quiet place to land. No accounts. No ads. No noise — just you, a canvas of intricate patterns, and colors that feel like a deep exhale.
+
+Choose from hand-crafted mandalas, flowing florals, ocean dreamscapes, and more. Fill regions with a single click, paint freehand with a soft brush, or layer gentle gradients — all accompanied by ambient chimes, birdsong, or the hush of distant waves.
+
+Built for stillness. Open it when the day feels loud.
+
+> **[✦ Enter Stillness →](https://LadyNaggaga.github.io/Stillness/)**
 
 ![HTML5](https://img.shields.io/badge/HTML5-Canvas-orange)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-yellow)
