@@ -4,7 +4,7 @@ import { layers, zoomToFit } from './canvas.js';
 import { undo, redo, updUndoUI } from './undo.js';
 import { generators } from './patterns/index.js';
 import { playSound } from './audio.js';
-import { getGalleryItems, loadFromGallery, deleteFromGallery } from './export.js';
+import { getGalleryItems, loadFromGallery, deleteFromGallery, importSVGPattern } from './export.js';
 
 var toastTimer = null;
 
@@ -90,6 +90,8 @@ export function setupUI() {
   }
   hamburger.addEventListener('click', toggleSidebar);
   overlay.addEventListener('click', toggleSidebar);
+
+  document.getElementById('x-import-svg').onclick = importSVGPattern;
 
   // Build theme selector
   var tgrid = document.getElementById('theme-grid');
