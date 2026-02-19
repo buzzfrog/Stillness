@@ -22,7 +22,7 @@ mkdirSync(PREVIEW_DIR, { recursive: true });
 const PAT_NAMES = [
   'mandala', 'floral', 'geometric', 'zentangle', 'ocean',
   'elephant', 'butterfly', 'celestial', 'garden', 'mosaic',
-  'kente', 'sashiko', 'paisley'
+  'kente', 'sashiko', 'paisley', 'celtic', 'aztec', 'dreamcatcher'
 ];
 
 const MIME = {
