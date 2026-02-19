@@ -4,7 +4,8 @@ import { layers, zoomToFit } from './canvas.js';
 import { undo, redo, updUndoUI } from './undo.js';
 import { generators } from './patterns/index.js';
 import { playSound } from './audio.js';
-import { getGalleryItems, loadFromGallery, deleteFromGallery, importSVGPattern } from './export.js';
+import { getGalleryItems, loadFromGallery, deleteFromGallery } from './export.js';
+import { importSVGPattern } from './import.js';
 
 var toastTimer = null;
 
